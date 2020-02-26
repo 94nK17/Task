@@ -12,7 +12,7 @@ module.exports = ( req,res,next)=>{
 
     //verify token
     try{
-        const decoded = jwt.verify(token, jwtSecret||process.env.jwtSecret)
+        const decoded = jwt.verify(token,process.env.jwtSecret|| jwtSecret)
 
         req.user = decoded.user 
         next()
