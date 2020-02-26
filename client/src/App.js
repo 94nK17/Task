@@ -14,7 +14,7 @@ import Alert from './components/Alert'
 import DashBoard from './components/DashBoard'
 import PrivateRoute from './components/PrivateRoute'
 import CreateTask from './components/CreateTask'
-import DeleteTask from './components/DeleteTask'
+
 import EditTask from './components/EditTask'
 import './App.css'
 
@@ -50,7 +50,7 @@ const App = ({loadUser}) => {
                         <PrivateRoute exact path="/dashboard" component={DashBoard} />
                         <PrivateRoute exact path="/task/create" component={CreateTask} />
                         <PrivateRoute exact path="/task/edit/:id" component={EditTask} />
-                        <PrivateRoute exact path="/task/delete/:id" component={DeleteTask} />
+                        
                     
                     </Switch>
                 </div>
