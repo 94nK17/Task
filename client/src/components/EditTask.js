@@ -28,7 +28,7 @@ const EditTask = ({task, updateTask, history}) => {
 
     return (
         <div>
-        <h1>Edtit a Task</h1>
+        <h1>update a Task</h1>
 
         <form onSubmit = {e => onSubmit(e)} >
 
