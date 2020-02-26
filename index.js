@@ -19,7 +19,7 @@ app.use('/users', require('./routes/userRoutes'))
 app.use('/tasks', require('./routes/TaskRoutes'))
 
 //authRoute
-app.use('/auth', require('./routes/AuthRoutes'))
+app.use('/auth', require('./routes/authRoutes'))
 
 //serve static assests in production
 if(process.env.NODE_ENV === 'production'){
