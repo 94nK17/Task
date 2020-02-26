@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const mongoDbUri = require('../config/mongoDbUri')
+//const mongoDbUri = require('../config/mongoDbUri')
 
 const connect = async ()=>{
 
